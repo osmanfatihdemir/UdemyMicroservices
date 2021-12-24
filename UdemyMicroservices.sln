@@ -26,6 +26,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourseServices.PhotoStock", "Services\PhotoStock\FreeCourseServices.PhotoStock\FreeCourseServices.PhotoStock.csproj", "{6BAD100A-0436-4DCA-900C-4D66A4CB91B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{77BC0578-4250-4486-9BB3-1A4DF2765121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourseServices.Basket", "Services\Basket\FreeCourseServices.Basket\FreeCourseServices.Basket.csproj", "{4F857AA7-90B0-42B9-AB34-7BCAF91492AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +52,10 @@ Global
 		{6BAD100A-0436-4DCA-900C-4D66A4CB91B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BAD100A-0436-4DCA-900C-4D66A4CB91B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BAD100A-0436-4DCA-900C-4D66A4CB91B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F857AA7-90B0-42B9-AB34-7BCAF91492AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F857AA7-90B0-42B9-AB34-7BCAF91492AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F857AA7-90B0-42B9-AB34-7BCAF91492AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F857AA7-90B0-42B9-AB34-7BCAF91492AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,8 @@ Global
 		{3ADF1960-AB92-4771-BBB3-502537622AE7} = {194A31B6-8DFC-4FA9-A779-8073A6AF9DFE}
 		{E3A917DD-B0F7-4927-8613-F6A48E6EDF0D} = {CB25322D-E136-4263-BF0F-90BD8309867C}
 		{6BAD100A-0436-4DCA-900C-4D66A4CB91B2} = {E3A917DD-B0F7-4927-8613-F6A48E6EDF0D}
+		{77BC0578-4250-4486-9BB3-1A4DF2765121} = {CB25322D-E136-4263-BF0F-90BD8309867C}
+		{4F857AA7-90B0-42B9-AB34-7BCAF91492AF} = {77BC0578-4250-4486-9BB3-1A4DF2765121}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C0E51D7-A317-4D61-BC87-B20934541A55}
