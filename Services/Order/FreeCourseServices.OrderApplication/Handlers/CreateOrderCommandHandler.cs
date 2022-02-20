@@ -1,7 +1,7 @@
 ﻿using FreeCourse.Shared.DTOs;
 using FreeCourseServices.OrderApplication.Commands;
 using FreeCourseServices.OrderApplication.DTOs;
-using FreeCourseServices.OrderDomain.OderAggregate;
+using FreeCourseServices.OrderDomain.OrderAggregate;
 using FreeCourseServices.OrderInfrastructure;
 using MediatR;
 using System;

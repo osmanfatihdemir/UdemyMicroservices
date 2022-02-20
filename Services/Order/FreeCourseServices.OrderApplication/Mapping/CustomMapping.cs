@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using FreeCourseServices.OrderApplication.DTOs;
-using FreeCourseServices.OrderDomain.OderAggregate;
+using FreeCourseServices.OrderDomain.OrderAggregate;
 using System;
 using System.Collections.Generic;
 using System.Linq;

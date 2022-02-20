@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FreeCourseServices.OrderDomain.OderAggregate
+namespace FreeCourseServices.OrderDomain.OrderAggregate
 {
    public class OrderItem:Entity
     {
