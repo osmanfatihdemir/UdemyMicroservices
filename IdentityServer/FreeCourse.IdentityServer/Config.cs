@@ -64,7 +64,7 @@ namespace FreeCourse.IdentityServer
                     AllowOfflineAccess=true,
                     ClientSecrets={new Secret("secret".Sha256()) },
                     AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
-                    AllowedScopes={"basket_fullpermission", "discount_fullpermission", "order_fullpermission", "fake_payment_fullpermission", "gateway_fullpermission",
+                    AllowedScopes={"basket_fullpermission", "order_fullpermission",  "gateway_fullpermission",
                         IdentityServerConstants.StandardScopes.Email, IdentityServerConstants.StandardScopes.OpenId, 
                         IdentityServerConstants.StandardScopes.Profile, IdentityServerConstants.StandardScopes.OfflineAccess, IdentityServerConstants.LocalApi.ScopeName, "roles"},
                     AccessTokenLifetime=1*60*60,
@@ -72,6 +72,15 @@ namespace FreeCourse.IdentityServer
                     AbsoluteRefreshTokenLifetime=(int)(DateTime.Now.AddDays(60)-DateTime.Now).TotalSeconds,
                     RefreshTokenUsage=TokenUsage.ReUse,
                 },
+
+                new Client{
+                    ClientId="TokenExchangeClient",
+                    ClientName="Token Exchange Client",
+                    ClientSecrets={new Secret("secret".Sha256()) },
+                    AllowedGrantTypes=new []{"urn:ietf:params:oauth:grant-type:token-exchange" },
+                    AllowedScopes={ "discount_fullpermission", "fake_payment_fullpermission", 
+                        IdentityServerConstants.StandardScopes.OpenId }
+                }
 
 
 
