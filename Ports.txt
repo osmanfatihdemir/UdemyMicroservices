@@ -3,4 +3,8 @@ Services
  -PhotoStockAPI=> 5012
  -BasketAPI=> 5013
  -DiscountAPI=> 5014
+ -OrderAPI=> 5015
+ -FakePayment=> 5016
 -IdentityServer=> 5001
+-Gateway=> 5000
+-WebUI=> 5010
